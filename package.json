@@ -1,0 +1,20 @@
+{
+  "name": "projeto1-node",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "import": "node src/import-tasks/csv.js"
+  },
+  "keywords": [],
+  "author": "Matheus Henrique de Faria",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "csv": "^6.3.11"
+  }
+}
